@@ -1,4 +1,4 @@
-# `agentes/` — biblioteca de cargos da Aprimarus
+# `agentes/` — biblioteca de cargos (genérica)
 
 - **`ORGANOGRAMA.md`** — o quadro completo de cargos por departamento/time (diretoria, gestão,
   comercial, finanças, estratégia, conteúdo, edição, design, social, TI). Ponto de partida.
@@ -7,7 +7,7 @@
 
 Esta pasta é o **RH genérico**. Cada subpasta é um **cargo** — a descrição bruta de um ofício,
 escrita **sem dado de nenhum cliente**. É a programação-base que depois é **replicada** para
-dentro de cada cliente (ou da própria Aprimarus), onde ganha a exclusividade: identidade
+dentro de cada cliente (ou da própria empresa), onde ganha a exclusividade: identidade
 visual, voz, esteira de produtos, lista de "nunca".
 
 ## Como os três níveis se encaixam
@@ -31,7 +31,7 @@ Aprimarus/.claude/skills/aprimarus-<cargo>/SKILL.md        Arquivo curto (~20-40
 ```
 
 Regra: **o ofício mora em um lugar só.** Se a forma de escrever roteiro muda, muda em
-`agentes/roteirista/` — não em 11 pastas de cliente. A pasta do cliente só carrega o que é
+`agentes/roteirista/` — não em N pastas de cliente. A pasta do cliente só carrega o que é
 exclusivo dele.
 
 **Todo time tem revisor próprio.** `agentes/revisor/AGENTE.md` é a doutrina; `revisor-conteudo`,
@@ -111,7 +111,7 @@ Estrutura inspirada no Jarvis OS do irmão do dono
 (`Aprimarus/estrategia/referencias/jarvis-os-2026-09-07/`). Os cargos de fundação
 (`gestor-de-projetos`, `pesquisador-de-mercado`, `estrategista-de-marca`) e `web-designer` /
 `designer-anuncio` vêm de lá, adaptados: o Jarvis é focado em anúncio+página de lançamento;
-a Aprimarus é agência de canal (YouTube longo + Reels + redes + relatório).
+o sistema de origem é agência de canal (YouTube longo + Reels + redes + relatório).
 
 
 ## Paths de exemplo
