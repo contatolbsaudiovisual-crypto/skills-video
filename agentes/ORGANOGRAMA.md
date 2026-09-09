@@ -1,7 +1,7 @@
-# Organograma — Aprimarus como empresa de agentes
+# Organograma — a produtora como empresa de agentes
 
 Cada **cargo** vira `agentes/<cargo>/AGENTE.md` (ofício genérico, zero dado de cliente).
-Depois é replicado como skill dentro de cada cliente / da Aprimarus, ganhando identidade,
+Depois é replicado como skill dentro de cada cliente / da própria empresa, ganhando identidade,
 voz e lista de "nunca" daquele contexto (ver `README.md`). Fontes externas por cargo em
 `IMPORTS.md`.
 
@@ -44,7 +44,7 @@ humano aprova · `ofício` = skill que roda por baixo · *(criar)* = não existe
 | `analista-de-margem` | custo e margem por cliente, rentabilidade da carteira | *(criar)* |
 
 ## 5. RECEITAS (novas formas de ganhar dinheiro)
-Time que não opera cliente — pensa o modelo de negócio da Aprimarus.
+Time que não opera cliente — pensa o modelo de negócio da própria empresa.
 | Cargo | Faz | Ofício / fonte |
 |---|---|---|
 | `head-de-receita` | mapeia fontes de receita atuais e potenciais, prioriza apostas | *(fonte: gtmagents `revenue-analytics`, coreyhaines `revops`, `marketing-loops`)* |
@@ -55,7 +55,7 @@ Time que não opera cliente — pensa o modelo de negócio da Aprimarus.
 | `analista-ltv-cac` | LTV, CAC, payback, churn de receita, expansão | *(fonte: gtmagents `revenue-analytics` cohort-analysis, OneWave `churn-autopsy`)* |
 
 ## 6. CUSTOMER SUCCESS
-Suporte + experiência + retenção do cliente que a Aprimarus atende.
+Suporte + experiência + retenção dos clientes atendidos.
 | Cargo | Faz | Ofício / fonte |
 |---|---|---|
 | `gerente-de-sucesso` | dono da conta do lado da entrega, plano de sucesso por cliente, reunião mensal | *(fonte: gtmagents `customer-success` adoption-program-manager, minhnv `20-client-intake`)* |
@@ -120,7 +120,7 @@ Suporte + experiência + retenção do cliente que a Aprimarus atende.
 | `social-listening` | monitora menções, concorrentes, sentimento | *(fonte: minhnv `15-social-listening`, gtmagents `voice-of-customer`)* |
 
 ## 12. TRÁFEGO PAGO
-Time dedicado — anúncio pago é entrega de vários planos e a Aprimarus roda "ilimitado" pra alguns.
+Time dedicado — anúncio pago é entrega de vários planos e alguns planos incluem volume "ilimitado".
 | Cargo | Faz | Ofício / fonte |
 |---|---|---|
 | `head-de-trafego` | plano de mídia, verba por canal, meta de CPA/ROAS, leitura semanal | *(fonte: AgriciDaniel `ads`/`ads-plan`/`ads-budget`, gtmagents `paid-media` media-strategist)* |
